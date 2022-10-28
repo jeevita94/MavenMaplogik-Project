@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.mk.qa.ExtentReportListeneer.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="Admin scenario_1(failed)">
+    <classes>
+      <class name="com.mk.qa.testcases.scenario2testcase">
+        <methods>
+          <include name="adminupdatestudentmarks"/>
+          <include name="setup"/>
+          <include name="result"/>
+          <include name="afterstudentmarksupdate"/>
+        </methods>
+      </class> <!-- com.mk.qa.testcases.scenario2testcase -->
+    </classes>
+  </test> <!-- Admin scenario_1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
